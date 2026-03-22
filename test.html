@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    
+
+    <table class="brod" id="data">
+<tr class="brod">
+<td class="brod" colspan="3"> department</td>
+</tr>
+<tr>
+    <td class="brod" rowspan="2">wing</td>
+</tr>
+<tr class="brod">
+<td class="brod">civil</td>
+</tr>
+<tr class="brod">
+<td class="brod">mech</td>
+</tr>
+<tr class="brod">
+          <td class="brod">ele</td>
+</tr>
+
+    </table>
+
+      <input type="button" onclick="export_data()" value="export1">
+    <input type="button" onclick="exportExcel()" value="export2">
+    <input type="button" onclick="btn3()" value="export3" id="download">
+    <script src="test.js "></script>
+    <script src="pdf.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.12.1/html2pdf.bundle.min.js"></script>
+    
+</body>
+</html>
